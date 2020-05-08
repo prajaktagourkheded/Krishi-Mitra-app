@@ -1,0 +1,36 @@
+<ion-header translucent no-border>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="/home" style="position: fixed;"></ion-back-button>
+      </ion-buttons>
+      <ion-title align="center">{{ 'Profile.title' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true" slot="fixed">
+
+  <div class="card">
+     
+          
+            <ion-icon name="contact" style="zoom:15.8; color: white; align-items: center; padding-left: 20%;" class="icon1"></ion-icon>
+          
+  </div>
+  <div class="card-body">
+      <div class="user-meta ion-text-center" *ngFor="let i of item">
+          <h3 class="playername" >{{i.fname}} {{i.lname}}</h3>
+          <h5 class="country" >{{ 'Profile.uname' | translate }} : {{i.uname}} </h5>
+          
+
+          <h5 class="country" >{{ 'Profile.aa' | translate }}: {{i.aadhar}}</h5>
+          <h5 class="country" >{{ 'Profile.ph' | translate }} : {{i.mob}} </h5>
+          <h5 class="country" >{{ 'Profile.city' | translate }} : {{i.cityy}}</h5>
+          
+
+
+      </div>
+  </div>
+
+
+
+
+</ion-content>

@@ -1,0 +1,171 @@
+{
+    "Login": {
+             "title" : "Login",
+             "username" : "Username",
+             "pwd" : "Password",
+             "btn" : "Login",
+             "addAccount" : "Don't have an Account ?",
+             "signup" : "Sign up now "
+
+    },
+    "Signup" :{
+        "title" : "CREATE ACCOUNT",
+        "fname" : "First Name",
+        "lname" : "Last Name",
+        "no" : "Mobile No",
+        "uname" : "UserName",
+        "ano" : "Adhar No",
+        "gender" : "Gender",
+        "female" : "Female",
+        "male" : "Male",
+        "pwd" : "Password",
+        "rpwd" : "Retype - Password",
+        "btn" : "Signup",
+        "select" : "Select",
+        "City" : "City",
+        "Nagpur" : "Nagpur",
+        "Mumbai" : "Mumbai",
+        "Pune" : "Pune",
+        "Aurangbad" : "Aurangbad",
+        "Amravati" : "Amravati" , 
+        "Kolhapur" : "Kolhapur" , 
+        "Akola" : "Akola",
+        "Satara" : "Satara"
+    },
+    "Home" : {
+        "title" : "Home",
+        "weather" : "Weather",
+        "q" : "Question & ",
+        "a" : "Answer" ,
+        "soil" : "Soil",
+        "gov" : "Govt. Scheme",
+        "search" : "Search Crop...."
+    },
+    "Category" : {
+        "title" : "Categories",
+        "weather" : "Weather",
+        "crop" : "Crop Diseases",
+        "pes" : "Pesticides",
+        "soil" : "Soil",
+        "irri" : "Irrigation",
+        "fer" : "Fertilizer",
+        "sch" : "Scheme",
+        "land" : "Land Management"
+    },
+    "Govt" : {
+        "title" : "Government Scheme"
+    },
+    "Soil" : {
+        "title" : "Soil" ,
+        "type" : "Types of Soil",
+        "sand" : "Sandy Soil",
+        "red" : "Red Soil",
+        "clay" : "Clayey Soil" ,
+        "p" : "Peat Soil",
+        "loamy" : "Loamy Soil",
+        "black" : "Black Soil",
+        "slit" : "Slit Soil",
+        "a" : "Alluvial Soil"
+    },
+    "SoilC" : {
+        "suitable" : "Suitable Crop - line-height: 1.8;" ,
+        "Sandy1" :  " , contains more than 60% sand and clay. It contains very little clay and silt, so it is porous.The size of soil particles in sandy soil is from 0.2mm to 2.0mm. The water building capacity of a sandy soil is very poor. Hence, there is a lot of air present in this type of soil. These soils have quick water drainage and are easy to work with. They are quicker to warm up in spring than clay soils but tend to dry out in summer and suffer from low nutrients that are washed away by rain." ,
+        "Sandy2" : "Sandy soil is not good for plants. However, melon and coconut grow in sandy soil. If water is available for irrigation then crops such as maize, millets, barley can be grown in desert soil.  Cactus also grows in this soil."
+        
+        ,"clay1" : " consists of very fine particles of clay. Its water holding capacity is very high. Wet clay soil is very sticky. It contains very little air. The size of soil particles in clay size is less than 0.2mm.  Clayey soil is rich in organic matter.Even clay soil has some good qualities. Clay, because of its density, retains moisture well. It also tends to be more nutrient-rich than other soil types. The reason for this is that the particles that make up clay soil are negatively charged, which means they attract and hold positively charged particles, such as calcium, potassium, and magnesium.",
+        "clay2" : "It is also not good for many plants. It is only good for crops like paddy, which require a lot of water.  Clay is used for making toys, pots, and many other purposes." 
+
+        ,"red1" : " Any of a group of soils that develop in a warm, temperate, moist climate under deciduous or mixed forests and that have thin organic and organic-mineral layers overlying a yellowish-brown leached layer resting on an illuvial (see illuviation) red layer. Red soils generally form from iron-rich sedimentary rock. They are usually poor growing soils, low in nutrients and humus and difficult to cultivate. Red soil ,  of soil is due to the presence of iron oxide. It appears yellow when it contains less iron or more water. Red soil contains a mixture of clay and sand, antis not fertile. However, the soil can be fertile by adding manures and fertilizers.",
+        "red2" : "Some of the crop suitable for red soil are cotton , wheat , rice , pulses , millets , tabacco , oilseeds , potatos ,and fruits .The red soil are mostly loamy and therefore cannot  retain water like the black soils . Under good management , these soil can be used profitably for different variety of crops such as  groundnut , maize  , soyabean , Beangal gram and mango."
+  
+        ,"peat1" : "are the most dominant type of organic soils developed through centuries under wetland conditions by the accumulation of partially decomposed and undecomposed plant residues. The other type of organic soil is muck which also develops by the accumulation of organic soil materials, but in this type, materials are relatively well decomposed, and the sources of materials are not identifiable.Peat soil is formed when plant material decomposes over thousands of years in wet, boggy areas of land. Farmers graze sheep and cattle on upland peatland sites which helps to protect these habitats while producing high-quality British beef and lamb."
+        ,"peat2" : "Drained fen or light peat soils are among the most fertile arable soils. Crops such as potatoes, sugar beet, celery, onions, carrots, lettuce and market garden crops are commonly grown. Cereals produce low yields. On light undrained peats, or where the water table remains high, the main crop is grass."
+  
+        ,"black1" : " are also called regur (from the Telugu word Reguda) and black cotton soils because cotton is the most important crop grown on these soils. Several theories have been put forward regarding the origin of this group of soils but most pedologists believe that these soils have been formed due to the solidifaction of lava spread over large areas during volcanic activity in the Deccan Plateau, thousands of years ago. Most of the black soils are derived from two types of rocks, the Deccan and the Rajmahal trap, and ferruginous gneisses and schists occurring in Tamil Nadu. The former are sufficiently deep while the later are generally shallow."
+        ,"black2" : "Black soil contains a large quantity of clay but is also sandy in hillier regions and this soil contains small quantities of phosphorus but is low in nitrogen content. This soil form is used in corn, wheat, sugar cane, and cotton. It is further used for the cultivation of groundnut, millet, and oilseeds.Black soil is ideally suited for growing cotton, sugar cane, tobacco, wheat, millets, and oilseed crops. Black soil is to be the best soil type for cotton cultivation.Cotton, maize, jowar, linseed, Virginia tobacco, castor, sunflower, and millets are some of the major crops grown on the black soils.It is also suitable for the production of cereals, oilseeds, citrus fruits and vegetables, tobacco and sugar cane, in addition to cotton."
+  
+        ,"allu1" : " has the highest productivity with respect to other soils. It is present mostly along rivers and is carried by its streams during weathering of rocks. The soil is generally covered by tall grasses and forests, as well as a number of crops, such as rice, wheat, sugarcane, tobacco, maize, cotton, soybean, jute, oilseeds, fruits, vegetables, etc."
+        ,"allu2" : "These soils are best suited for cotton crop. Hence these soils are called as regur and black cotton soils. Other major crops grown on the black soils include wheat, jowar, linseed, virginia tobacco, castor, sunflower and millets. Rice and sugarcane are equally important where irrigation facilities are available. Large varieties of vegetables and fruits are also successfully grown on the black soils. This soil has been used for growing a variety of crops for centuries without adding fertilizers and manures, with little or no evidence of exhaustion."
+  
+        ,"loamy1" : " , Because of the balance of ingredients, loam is the ideal garden soil. Its texture is porous, allowing water to flow through slowly enough for the plants to access it, but fast enough to avoid waterlogged, soggy soil. Loam is loose and crumbly in our hands. This is referred to as friable. Loose soil provides room for air to mix into the soil, which is also necessary for optimal plant growth. Loam is also nutrient-rich."
+        ,"loamy2" : " Loamy soil is ideal for growing crops such as wheat, sugarcane, cotton, jute, pulses, and oilseeds. Vegetables also grow well in this soil."
+ 
+        ,"slit1" : " is granular material of a size between sand and clay, whose mineral origin is quartz and feldspar. Silt may occur as a soil or as sediment mixed in suspension with water and soil in a body of water such as a river. It may also exist as soil deposited at the bottom of a water body, like mudflows from landslides"
+        ,"slit2" : " It's easier to identify the few types of plants that don't grow well in silty loam, but the species that particularly like loose, fertile soil do especially well -- grasses, bamboo, wetland and aquatic plants, vegetables, fruit trees, berry bushes and ferns, to name a few."
+    
+    },
+    "Menu":{
+        "title" : "Menu",
+        "Aboutus" : "Aboutus",
+        "logout" : "Logout",
+        "lng" : "Language"
+    },
+    "Notification" : {
+            "title" : "Notification"
+    },
+    "Crop": {
+        "a" : "Crop Information"
+    },
+    "Profile" : {
+        "title" : "Profile",
+        "uname":"USERNAME",
+        "ph":"PHONE NUMBER",
+        "city" : "CITY",
+        "aa" : "AADHAR"
+    },
+    "Vehicle" : { 
+        "title" : "Vehicle"
+    },
+    "Tools" : {
+        "title" : "Tools",
+        "sickel" : "A sickle is a hand-held agricultural tool with a variously curved blade typically used for harvesting grain crops or cutting succulent forage chiefly for feeding livestock (either freshly cut or dried as hay). A great diversity of types is used across many cultures.   Between the dawn of the Iron Age and present, hundreds of region-specific variants of this basic   forage-cutting tool were forged of iron, later steel. One noteworthy feature of sickles is that their edges  have been made in two very distinct manners/patterns – smooth or serrated. While both can (albeit with a different technique) be used for cutting either green grass or mature cereals, it is the serrated  sickle that still dominates the duty of harvesting grain – with other words the “reaping”. Modern kitchen knives with serrated edges, as well as grain-harvesting machines use the same design principle as prehistoric sickles. "
+        ,"spade" : " A shovel is a tool for digging, lifting, and moving bulk materials, such as soil, coal, gravel, snow, sand, or ore. Shovels are used extensively in agriculture, construction, and gardening. Most shovels are hand tools consisting of a broad blade fixed to a medium-length handle."
+        ,"axe" : "F M Exim is categorized amongst one of the sincere companies for manufacturing, exporting and supplying a wide range of Axe for agricultural purposes. Axe and our other agricultural tools are manufactured and designed using finest quality material and are commended for their perfect finish."
+        ,"pickaxe" : "A pickaxe or pick is a hand tool with a hard head attached perpendicular to the handle. They are used as tools for landscaping, breaking up hard surfaces and as farming implements. It consists of a handle and a head made of metal that has both a pointed and blunt end. The pointed end breaks up hard surfaces, while the blunt end can be used to pry things up. A pickaxe can often break up soils that a shovel can’t. Dry, hardened clay or rocky soils can be broken up using the sharp end of the axe."
+        ,"hoe" : "A hoe is an ancient and versatile agricultural hand tool used to shape the soil, control weeds, clear soil, and harvest root crops. Shaping the soil can be piling soil around the base of plants (hilling), creating narrow furrows (drills) and shallow trenches for planting seeds and bulbs. Weed control with a hoe can be by agitating the surface of the soil or by cutting foliage from the roots, and clearing soil of old roots and crop residues. Hoes for digging and moving soil are used harvesting root crops such as potatoes."
+        ,"plough" : "Tillage is the basic operation in farming. It is done to create favourable conditions for seed placement and plant growth. This is done mainly with a plough. A full history of the evolution of plough is not available. Farmers have been using plough since time immemorial. The primitive model might have been a crooked twig or a branch of a tree. The basic components of the plough are a shoe, a share, a body, a handle and a beam."
+        ,"yoke" : "The yoke has a projection at the centre to which a beam of implements like plough, leveller and harrow etc. are secured by a rope"
+        ,"lev" : "The plank of the leveller is made of any locally available wood and shafts are generally made of bamboo sticks. Extra weight is added to all type of planks by placing stones on it or having person (s) ride on it. As the name suggests, levellers are used for levelling land."
+   
+        ,"si" : "Sickel"
+        ,"sp" : "Spade"
+        ,"a" : "Axe"
+        ,"pi" : "Pickaxe"
+        ,"h" : "Hoe"
+        ,"pl" : "Plouge"
+        ,"y" : "Yoke"
+        ,"l" : "leveller"
+   
+    },
+    "Fertilizer" : {
+        "title" : "Fertilizer"   
+     },
+     "About" : {
+         "title" : "Aboutus",
+         "heading" : "Welcome to the Krishi Mitr",
+         "para" : " It is a small Android app in terms of memory with an easy interface to use.It is available in 3 different Indian languages.It provides information about all Govt schemes to Kisan.It provides information about all Govt schemes to Kisan.This application can share the detailed information and knowledge related to agriculture and its activities, in easier and more effective way.This app will provide you with all the farming related information."
+        ,"1" : "This app will provide you a platform where you can search for any crop information." 
+        ,"2" : "In such a wsy that searching a particular crop will provide you it's related information like this crop requires what type of soil, weather, and other important information which will help the crop grow much efficiently."
+        ,"3" : "The farmers will be provided with government schemes related lated updates."
+        ,"4" : "There will be a seperate weather page where latest weather updates can be seen."
+        ,"5" : "Soil types along with it's detailed information will be provided."
+        ,"6" : "The different types of tools which the farmer can use for farming and make the work more easier will be shown."
+        ,"7" : "The popular fertilizer which are fruitful for fram and affordable will also be suggested."
+        ,"8" : "Thus this application in one in a go for your farming."
+        },
+        "Weather" : {
+            "title" : "Weather",
+            "H" : "Humidity",
+            "p" : "Pressure",
+            "w" : "Windspeed",
+            "t" : "Today"
+        }
+    
+
+
+
+
+
+
+
+}

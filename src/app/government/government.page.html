@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home" style="position: fixed;"></ion-back-button>      
+    </ion-buttons>
+    <ion-title align="center">{{ 'Govt.title' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+    <ion-item lines="none"  *ngFor = "let x of govern"  >
+      <div class="container">
+      <div class="img-container">
+        <img src="{{x.imagee}}" >
+      </div>
+       <div class="text-box">
+         <a href="{{x.link}}" style="text-decoration: none; color: #24302D;">
+          <b style="color: #42644F;">{{x.name}}</b><br>
+          {{x.gov}}
+         </a>
+         
+       </div>
+       </div>
+      </ion-item>
+ 
+
+             
+
+</ion-content>

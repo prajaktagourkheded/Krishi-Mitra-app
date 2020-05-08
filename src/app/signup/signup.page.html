@@ -1,0 +1,95 @@
+
+<ion-content >
+  <h1 align="center" class="heading" >{{ 'Signup.title' | translate }}</h1>
+  <form  [formGroup] = "signupForm"> 
+      <div class="main">
+         
+         
+         <ion-item class="textbox">
+            <ion-label>{{ 'Signup.fname' | translate }}</ion-label>
+              <ion-input type="text" formControlName="fname" required></ion-input>
+         </ion-item>
+         <span class="danger" *ngIf="(signupForm.controls.fname.dirty || signupForm.controls.fname.touched) && signupForm.controls.fname.invalid">
+         Required *
+          </span>
+         
+         <ion-item class="textbox">
+            <ion-label>{{ 'Signup.lname' | translate }}</ion-label>
+              <ion-input type="text" formControlName="lname"></ion-input>
+        </ion-item >
+        <span class="danger" *ngIf="(signupForm.controls.lname.dirty || signupForm.controls.lname.touched) && signupForm.controls.lname.invalid">
+      Required *
+       </span>
+        <ion-item class="textbox">
+             <ion-label>{{ 'Signup.no' | translate }}</ion-label>
+               <ion-input type="number" formControlName="mob"></ion-input>
+        </ion-item>
+        <span class="danger" *ngIf="(signupForm.controls.mob.dirty || signupForm.controls.mob.touched) && signupForm.controls.mob.invalid">
+         Required *
+          </span>
+
+       <ion-item class="textbox">
+             <ion-label>{{ 'Signup.uname' | translate }}</ion-label>
+               <ion-input type="text" formControlName="uname"></ion-input>
+        </ion-item>
+        <span class="danger" *ngIf="(signupForm.controls.uname.dirty || signupForm.controls.uname.touched) && signupForm.controls.uname.invalid">
+         Required *
+          </span>
+
+        <ion-item class="textbox">
+             <ion-label>{{ 'Signup.ano' | translate }}</ion-label>
+               <ion-input type="text" formControlName="aadhar" ></ion-input>
+        </ion-item>
+        <span class="danger" *ngIf="(signupForm.controls.aadhar.dirty || signupForm.controls.aadhar.touched) && signupForm.controls.aadhar.invalid">
+         Enter 12 digits 
+          </span>
+
+         <ion-item class="textbox">
+              <ion-label>{{ 'Signup.City' | translate }}</ion-label>
+                 <ion-select placeholder="Select" formControlName="cityy">
+                    <ion-select-option >{{'Signup.Nagpur' | translate }}</ion-select-option>
+                    <ion-select-option >{{'Signup.Mumbai' | translate }}</ion-select-option>
+                    <ion-select-option >{{'Signup.Pune' | translate }}</ion-select-option>
+                    <ion-select-option >{{'Signup.Aurangbad' | translate }}</ion-select-option>
+                    <ion-select-option >{{'Signup.Amravati' | translate }}</ion-select-option>
+                    <ion-select-option >{{'Signup.Kolhapur' | translate }}</ion-select-option>
+                    <ion-select-option >{{'Signup.Kolhapur' | translate }}</ion-select-option>
+                    <ion-select-option >{{'Signup.Akola' | translate }}</ion-select-option>
+                    <ion-select-option >{{'Signup.Satara' | translate }}</ion-select-option>
+                 </ion-select>
+         </ion-item>
+         <span class="danger" *ngIf="(signupForm.controls.cityy.dirty || signupForm.controls.cityy.touched) && signupForm.controls.cityy.invalid">
+            Required *
+             </span>
+        <ion-item class="textbox">
+           <ion-label>{{ 'Signup.gender' | translate }} </ion-label>
+              <ion-select placeholder="{{'Signup.select' | translate }}" formControlName="gender">
+                 <ion-select-option >{{ 'Signup.female' | translate }}</ion-select-option>
+                 <ion-select-option >{{ 'Signup.male' | translate }}</ion-select-option>
+              </ion-select>
+         </ion-item>
+         <span class="danger" *ngIf="(signupForm.controls.gender.dirty || signupForm.controls.gender.touched) && signupForm.controls.gender.invalid">
+            Required *
+             </span>
+       <ion-item class="textbox">
+          <ion-label>{{ 'Signup.pwd' | translate }}</ion-label>
+          <ion-input type="password"  formControlName="password"></ion-input>
+       </ion-item>
+       <span class="danger" *ngIf="(signupForm.controls.password.dirty || signupForm.controls.password.touched) && signupForm.controls.password.invalid">
+         Password must be at least 7 characters and not more than 12 characters
+          </span>
+       <div *ngIf="pwddanger" class="danger">
+         password and re-password didn't match !!
+       </div>
+       <ion-item class="textbox">
+           <ion-label>{{ 'Signup.rpwd' | translate }}</ion-label>
+           <ion-input type="password" formControlName="rpassword"></ion-input>
+       </ion-item>
+       <br><br>  
+  <!-- <ion-card   >Signup</ion-card> -->
+  <ion-button   [disabled] = "!signupForm.valid" expand="full" shape="round" class ="btn"  (click)="add()"  >{{ 'Signup.btn' | translate }}
+
+  </ion-button>  </div>
+</form>
+
+</ion-content>

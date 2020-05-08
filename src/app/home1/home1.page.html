@@ -1,0 +1,101 @@
+<ion-app>
+
+  <ion-header >
+    <ion-toolbar align="center">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/home"></ion-back-button>
+        
+      </ion-buttons>
+    <ion-title >{{'Crop.a' | translate }} </ion-title>
+    
+    </ion-toolbar>
+  </ion-header>
+  <div *ngIf="show" class="danger">
+    NO data found 
+    </div>
+
+<ion-content class="myview">
+      <ion-list *ngFor = "let c of crop">
+        <br>
+        <div class="heading">{{c.name}}</div><br>
+        <img src = "{{c.imagee}}">
+        <div class="soil">
+          <div class="b">Soil</div>{{c.soil}}</div>
+        <div class="soil">
+          <div class="b">Surface</div>{{c.surface}}</div>
+        <div class="soil">
+          <div class="b">Temperature</div>{{c.temp}}</div>
+        <div class="soil">
+          <div class="b">Fertilizer</div>{{c.fertilizer}}</div>
+        <div class="soil">
+          <div class="b">Irrigation</div>{{c.irri}}</div>
+        <div class="soil">
+          <div class="b">Insect Management</div>
+          <ul   >
+            <li>{{c.in1}}</li>
+            <li>{{c.in2}}</li>
+            <li>{{c.in3}}</li>
+            <li>{{c.in4}}</li>
+            <li>{{c.in5}}</li>
+            
+        </ul>
+        </div>
+        <div class="soil">
+          <div class="b">Disease Management</div>
+          <ul   >
+            <li>{{c.di1}}</li>
+            <li>{{c.di2}}</li>
+            <li>{{c.di3}}</li>
+            <li>{{c.di4}}</li>         
+            <li>{{c.di5}}</li>
+            
+        </ul>
+        </div>
+        <div class="soil">
+          <div class="b">Video</div> 
+
+          <ul>
+            <li><a href="{{c.v1}}" class="link">{{c.v1}}</a></li>
+            <li><a href="{{c.v2}}" class="link">{{c.v2}}</a></li>
+            <li><a href="{{c.v3}}" class="link">{{c.v3}}</a></li>
+          </ul>
+             
+        </div>
+      </ion-list>
+</ion-content>
+</ion-app>
+
+
+
+
+
+<!-- <ion-grid class="imagecover" > 
+  <ion-row class="card" arap> 
+     <ion-col col-3> 
+        <ion-card class=" ion-text-center" routerLink='/home1'> 
+         <ion-label>Gov. Scheme</ion-label> 
+          <img src = "assets\Image\3.png"> 
+        </ion-card> 
+   </ion-col> 
+    <ion-col col-3 width="50" > 
+     <ion-card  class=" ion-text-center"  routerLink='/soil'>  
+         <ion-label>Soil</ion-label> 
+         <img src = "assets\Image\33.jpg"> 
+     </ion-card> 
+   </ion-col> 
+ </ion-row> 
+ <ion-row class="card">
+     <ion-col col-6> 
+         <ion-card class=" ion-text-center"  [routerLink]="['/weather']"> 
+             <ion-label>Fertilizer</ion-label> 
+                 <img src = "assets\Image\7.jpg"> 
+         </ion-card> 
+     </ion-col> 
+     <ion-col col-6> 
+         <ion-card class=" ion-text-center"  routerLink='/vehicle'> 
+             <ion-label>Vehicle</ion-label> 
+                   <img src = "assets\Image\10.jpg"> 
+         </ion-card> 
+     </ion-col> 
+ </ion-row> 
+</ion-grid> -->

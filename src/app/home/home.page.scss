@@ -1,0 +1,77 @@
+
+
+ion-toolbar{
+  --background: #67A995;
+  color: white;
+}
+.container{
+ 
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+  
+  
+}
+
+ion-card{
+  --background: #DEF8EE;
+  margin-right: 3%;
+  border-radius: 0px;
+  color: #5A7E70;
+  margin-top: 4%;
+  border: solid #67A995 0.8px;
+  
+
+  // border: solid darkgreen 2px;
+}
+
+.img-container{
+
+  // border: solid blueviolet 3px;
+  height: 140px;
+  width: 40%;
+  --background: #D2F6ED;
+ 
+  
+}
+.text-box{
+
+  height: 100%;
+  position:absolute;
+  padding-left: 40%;
+  
+  // border: solid pink 3px;
+  width: 100%;
+  text-align: center;
+  // padding-top: 15%;
+  font-size: 24px;
+}
+.big{
+  height: 140px;
+}
+.small{
+  height: 80px;
+  
+}
+
+.text-box1{
+   position: absolute;
+   width: 75%;
+   height: 100%;
+   font-size: 24px;
+   padding-top: 6%;
+   text-align: center;
+
+}
+.icon-container{
+  float: right;
+   
+   width: 25%;
+   height: 80px;
+   background-color: #67A995;
+  //  padding-top: 6%;
+  //  padding-left: 6%;
+  //  border: solid blueviolet 1px;
+   margin: 0px;
+}
+

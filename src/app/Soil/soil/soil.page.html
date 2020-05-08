@@ -1,0 +1,76 @@
+ <ion-header translucent>
+    
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+      
+    </ion-buttons>
+    <ion-title>{{ 'Soil.type' | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card class="ion-text-center" routerLink="/sandy">
+          <ion-label>{{ 'Soil.sand' | translate }}</ion-label>
+          <img src = "assets\Image\Soil\1.png">
+         
+          
+          
+        </ion-card>
+        
+      </ion-col>
+      <ion-col>
+        <ion-card class="ion-text-center" routerLink="/clay">
+          <ion-label>{{ 'Soil.clay' | translate }}</ion-label>
+          <img src = "assets\Image\Soil\2.jpg">
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card class="ion-text-center" routerLink="/red">
+          <ion-label>{{ 'Soil.red' | translate }}</ion-label>
+          <img src = "assets\Image\Soil\3.jpg">
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="ion-text-center" routerLink="/black">
+          <ion-label>{{ 'Soil.black' | translate }}</ion-label>
+          <img src = "assets\Image\Soil\4.png">
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card class="ion-text-center" routerLink="/peat">
+          <ion-label>{{ 'Soil.p' | translate }}</ion-label>
+          <img src = "assets\Image\Soil\5.jpg">
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="ion-text-center" routerLink="/chalk">
+          <ion-label>{{ 'Soil.loamy' | translate }}</ion-label>
+          <img src = "assets\Image\Soil\6.jpg">
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card class="ion-text-center" routerLink="/slit">
+          <ion-label>{{ 'Soil.slit' | translate }}</ion-label>
+          <img src = "assets\Image\Soil\7.jpg">
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="ion-text-center" routerLink="/alluvial">
+          <ion-label>{{ 'Soil.a' | translate }}</ion-label>
+          <img src = "assets\Image\Soil\8.jpg">
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+</ion-content>

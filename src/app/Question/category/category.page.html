@@ -1,0 +1,54 @@
+  <ion-app>
+    <ion-header >
+      <ion-toolbar>
+        <ion-buttons slot="start" style="position: fixed;">
+          <ion-back-button defaultHref="/home"></ion-back-button>
+          
+        </ion-buttons>
+      <ion-title align="center">{{ 'Category.title' | translate}}</ion-title>
+      
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-card-content>      
+        <div class="container">
+          <ion-card (click)="pass('Weather')" >
+            <img src="assets\Image\Wcategory\weather.png">
+            <div class="Content">{{ 'Category.weather' | translate}}</div>
+          </ion-card>
+          <ion-card (click)="pass('Crop Diseases')"  >
+            <img src="assets\Image\Wcategory\crop.png">
+            <div class="Content">{{ 'Category.crop' | translate}}</div>
+          </ion-card>
+          
+          <ion-card (click)="pass('Pesticides')"  >
+            <img src="assets\Image\Wcategory\pesticides.png">
+            <div class="Content">{{ 'Category.pes' | translate}}</div>
+          </ion-card>
+          <ion-card (click)="pass('Soil')"  >
+            <img src="assets\Image\Wcategory\soil.jpg">
+            <div class="Content">{{ 'Category.soil' | translate}}</div>
+          </ion-card>
+          
+          <ion-card (click)="pass('Irrigation')"  >
+            <img src="assets\Image\Wcategory\irrig.jpg">
+            <div class="Content">{{ 'Category.irri' | translate}}</div>
+          </ion-card>
+          <ion-card (click)="pass('Fertilizer')"  >
+            <img src="assets\Image\Wcategory\fertilizer.jpg">
+            <div class="Content">{{ 'Category.fer' | translate}}</div>
+          </ion-card>
+          <ion-card (click)="pass('Scheme')"  >
+            <img src="assets\Image\Wcategory\scheme.png">
+            <div class="Content">{{ 'Category.sch' | translate}}</div>
+          </ion-card>
+          <ion-card (click)="pass('Land Management')"  >
+            <img src="assets\Image\Wcategory\land.jpg">
+            <div class="Content">{{ 'Category.land' | translate}}</div>
+          </ion-card>
+        </div>    
+      </ion-card-content>
+    </ion-content>
+
+  </ion-app>
+  

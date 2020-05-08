@@ -1,0 +1,86 @@
+<ion-app>
+  <ion-header style="background-color: #67A995;">
+    <ion-toolbar >
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title align="center">{{ 'Home.title' | translate }}</ion-title>
+      <ion-buttons slot="end" [routerLink]="['/notification']">
+        <ion-icon name="notifications" size="large">
+          <ion-badge id="notifications-badge" color="danger" ></ion-badge>
+        </ion-icon>  
+      </ion-buttons>
+    </ion-toolbar>
+  <ion-searchbar  style="--background : white ;" (search)="yourSearchFunction($event.target.value)" placeholder = "{{ 'Home.search' | translate}}" ></ion-searchbar>
+  </ion-header>
+
+
+  <ion-content>
+    <ion-slides #mySlider style="height: 200px; margin :3%  " [options]="sliderOpts"  >
+      <ion-slide>
+         <img src = "assets\Image\122.png">
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="assets\Image\slide.jpg">
+      </ion-slide>
+
+      <ion-slide>
+        <img src="assets\Image\4.jpg">
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="assets\Image\11.jpg">
+      </ion-slide>
+
+      
+
+  </ion-slides>
+  <div class="container">
+    
+          <ion-card class="big" routerLink='../weather'>
+            
+            <div  class="text-box" style="padding-top: 16%;">
+              {{ 'Home.weather' | translate }}
+            </div>
+            <div class="img-container">
+              <img src="assets\Image\1.jpg" >
+            </div>
+           
+          </ion-card>
+          <ion-card class="small" routerLink='../government'>
+            <div class="text-box1">
+              {{ 'Home.gov' | translate }}
+            </div>
+            <div class="icon-container">
+              <img src="assets\Image\gov (2).png" >
+            </div>
+
+
+          </ion-card>
+          <ion-card class="big" routerLink='../question/category'>
+            
+            <div  class="text-box" style="padding-top: 14%;">
+              {{ 'Home.q' | translate }} <br> {{ 'Home.a' | translate }}
+            </div>
+            <div class="img-container">
+              <img src="assets\Image\question1.png" >
+            </div>
+           
+          </ion-card>
+          <ion-card class="small" routerLink = '../soil'>
+            <div class="text-box1">
+              {{ 'Home.soil' | translate }}
+            </div>
+            <div class="icon-container">
+              <img src="assets\Image\soilc.png" >
+            </div>          
+          </ion-card>
+  </div>
+  
+  
+  </ion-content>
+  
+</ion-app>
+
+

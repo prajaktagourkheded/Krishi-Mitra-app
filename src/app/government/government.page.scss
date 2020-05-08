@@ -1,0 +1,33 @@
+ion-toolbar{
+    --background: #67A995;
+    color: white;
+}
+
+.container{
+    
+    border: black 1px;
+    border-bottom: solid green 1px;
+    // padding-bottom: 2%;;
+    // padding-top: 3%;
+}
+img{
+    position: absolute;
+}
+
+.img-container{
+    float: left;
+    height: 100%;
+    width: 20%;   
+    position: absolute;
+    padding-top: 3%;     
+}
+
+.text-box{
+    padding: 3%;
+    position: relative ;
+    color: #78B18E;
+    margin-left: 25%;
+    font-size: small;
+    text-align: justify;
+
+}

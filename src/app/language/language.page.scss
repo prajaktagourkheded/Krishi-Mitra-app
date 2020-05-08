@@ -1,0 +1,35 @@
+ion-card{
+    height: 90px;
+    width: 150px;
+    background-color: #59BFA0;
+    color: white;
+    padding-top: 33px;
+    font-size: 30px;
+    // text: center;
+  }
+.container{
+      margin-top: 40%;
+    
+      margin-left: 8%;
+      margin-right: 8%;
+      width: 86%;
+      
+      align-items: center;
+  }
+  .content{
+    color: #124739;
+    width: 100%;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 27px;
+
+  }
+ion-content{
+  --background: url('../../assets/Image/ok.jpg') no-repeat center center / cover; 
+}
+ion-button{
+  --background : #67A995;
+  color: white;
+  margin-bottom: 10px;
+}

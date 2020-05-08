@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home" style="position: fixed;"></ion-back-button>      
+    </ion-buttons>
+    <ion-title align="center">{{ 'Weather.title' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content >
+ 
+  <div class="container">
+    <h1 align="center" class="big">{{place}}</h1>
+      <h2 class="big2">{{temperature}}</h2>
+     <b>_ _ _ _ _ _ _ _ _ _ _ _ _</b><br>
+     <br><h2 class="s">{{type}}</h2><br>
+             <img class="i" style="height: 90px; margin-top: 5px;" src={{icon}}><br>
+             <ion-label >{{temperature}}<br>
+              {{ 'Weather.t' | translate }}</ion-label>
+
+  </div>
+ 
+<ion-card class="card1">
+  <ion-label class="font">
+    {{ 'Weather.H' | translate }} : {{humidity}}
+    </ion-label>
+    <BR>
+    <ion-label class="font">
+      {{ 'Weather.p' | translate }}: {{pressure}} mbar
+    </ion-label>
+    <BR>
+    <ion-label class="font"> 
+      {{ 'Weather.w' | translate }}: {{windspeed}} mi/h N
+    </ion-label>  
+</ion-card>
+</ion-content>

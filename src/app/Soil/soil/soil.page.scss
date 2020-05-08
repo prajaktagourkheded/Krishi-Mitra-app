@@ -1,0 +1,23 @@
+ion-toolbar{
+    --background: #67A995;
+    color: white;
+    text-align: center;
+}
+ion-back-button{
+    position: fixed;
+}
+ion-card{
+    height: 110px;
+    // border: black solid 1px;
+    border-radius: 0px;
+    position: relative;
+    background-image: cover;
+    background-position: center;
+    
+
+}
+ion-label{
+    font-size: 14px;
+    font-weight: bold;    
+    
+}

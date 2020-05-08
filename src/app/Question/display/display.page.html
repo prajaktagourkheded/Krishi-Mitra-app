@@ -1,0 +1,20 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start" style="position: fixed;">
+        <ion-back-button defaultHref="/question/category"></ion-back-button>
+        
+      </ion-buttons>
+      <ion-title align="center"> {{ 'Home.q' | translate }} {{ 'Home.a' | translate }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content  ><br>
+      <ion-item lines="none" *ngFor = "let q of questions"  >
+          <div class="container">
+               <div class="ques">{{q.que}}</div>
+               <div class="ans">{{q.ans}}</div>
+          </div>        
+      </ion-item>
+  </ion-content>
+</ion-app>

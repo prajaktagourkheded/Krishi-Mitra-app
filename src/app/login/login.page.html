@@ -1,0 +1,31 @@
+
+<ion-content >
+  <h1 align="center" class="heading" >{{  'Login.title' | translate  }}</h1>
+  <div class="main">
+    <form [formGroup] = "loginForm"> 
+      <div *ngIf="showdanger" class="danger">
+        Incorrect username and password !!
+ </div>
+          <ion-item class="textbox">
+               <ion-icon ios="ios-contact" md="md-contact" style="zoom:1.4;" ></ion-icon>&nbsp;&nbsp;
+                   <ion-input placeholder="{{ 'Login.username' | translate }}" formControlName ="uname"></ion-input>
+                  
+          </ion-item> 
+
+         <ion-item class="textbox"> 
+               <ion-icon ios="ios-lock" md="md-lock" style="zoom:1.4;"></ion-icon>&nbsp;&nbsp;
+                   <ion-input type="password"  placeholder="{{ 'Login.pwd' | translate }}" formControlName = "pwd"></ion-input>
+          </ion-item>
+          <br>
+        <div class="ion-margin-top ion-text-center" >
+            <!-- <ion-card class="btn"  (onclick)="gologin">{{ 'Login.btn' | translate }}</ion-card>   -->
+            <ion-button class="btn" (click)="gologin()">{{ 'Login.btn' | translate }}</ion-button>
+        </div>
+    </form>
+  <div align="center">
+  <br>{{ 'Login.addAccount' | translate }} <button  class="sign"  routerLink="/signup" >{{ 'Login.signup' | translate }}</button>
+  
+  </div>
+</div>
+
+</ion-content>

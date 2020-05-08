@@ -1,0 +1,32 @@
+.main{
+    margin: 40px;
+    color: black;
+    }
+    
+    .textbox{
+        // border-bottom: 3px solid #67A995;
+        border-radius: 10px;
+        border: 1px solid #67A995;
+    }
+    .heading{
+        margin-top: 40px;
+        font-size: 25px;
+        color: #67A995;
+    }
+    .btn{
+        text-align: center;
+        // font-size: medium;
+        --background: #67A995;
+        color: white;
+    
+    }
+    .danger{
+        color: red;
+        font-size: 15px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       
+        height: 30px;
+        padding-top: 7px;
+        padding-left: 7px;
+       
+    }
